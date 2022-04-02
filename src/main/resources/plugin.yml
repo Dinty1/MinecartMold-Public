@@ -1,0 +1,31 @@
+name: MinecartMold
+version: '${project.version}'
+main: net.minecartrapidtransit.minecartmold.MinecartMold
+api-version: 1.18
+authors: [ Dinty1, chiefbozx ]
+description: Like Reddit Mold but for the Minecart Rapid Transit server
+
+commands:
+  startmoldoutbreak:
+    permission: science.start
+    permission-message: "§cno"
+  stopmoldoutbreak:
+    permission: science.start
+    permission-message: "§cno"
+  reloadmoldconfig:
+    permission: science.reload
+    permission-message: "§cno"
+  moldstatus:
+    permission: science.status
+    permission-message: "§cno"
+
+permissions:
+  science-experiment.start:
+    default: op
+    description: Gives access to the "start" science experiment command
+  science-experiment.reload:
+    default: op
+    description: Gives access to the "reload" science experiment command
+  science-experiment.status:
+    default: op
+    description: Gives access to the "status" science experiment command

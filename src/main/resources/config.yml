@@ -1,0 +1,16 @@
+# Chat commands that should be monitored to prevent bypassing
+commands-to-check:
+  - /g
+  - /l
+  - /m
+  - /p1
+  - /p2
+  - /p3
+  - /p4
+  - /u
+  - /channel
+# Max number of letters that can be banned at any one time
+max-banned-letters: 6
+# How long the plugin should wait before banning a new letter
+# Letters will be unbanned if necessary halfway through this interval
+letter-ban-interval: 10
