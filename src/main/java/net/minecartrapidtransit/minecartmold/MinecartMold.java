@@ -48,6 +48,7 @@ public final class MinecartMold extends JavaPlugin {
 
     public void deactivate() {
         this.letterBanManager.interrupt();
+        this.letterBanManager.getBannedLetters().clear();
         this.activated = false;
     }
 }
