@@ -20,12 +20,12 @@ commands:
     permission-message: "§cno"
 
 permissions:
-  science-experiment.start:
+  science.start:
     default: op
     description: Gives access to the "start" science experiment command
-  science-experiment.reload:
+  science.reload:
     default: op
     description: Gives access to the "reload" science experiment command
-  science-experiment.status:
+  science.status:
     default: op
     description: Gives access to the "status" science experiment command
